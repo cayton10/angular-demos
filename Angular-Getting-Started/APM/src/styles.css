@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Import bootstrap and font-awesome minified style sheets using the @import rule
+  The directory paths for these style sheets can be found by looking in the recently
+  imported modules that were imported using $ npm install bootstrap font-awesome */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
 div.card-header {
  font-size: large;
 }
